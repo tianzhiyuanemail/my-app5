@@ -19,7 +19,7 @@ class App extends Component {
           <Link to="/a"  innerRef={refCallback}>aaaaaaaaaaaaaaa</Link>
           <br/>
           <Link to={{
-              pathname: '/b',
+              pathname: '/inb',
               search: '?sort=name',
               hash: '#the-hash',
               state: {
